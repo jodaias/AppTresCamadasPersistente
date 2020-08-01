@@ -1,21 +1,52 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using DatabaseTXT;
 
-namespace Basiness
+namespace Business
 {
-    public class Usuario : Base
+    public class Usuario
     {
-        public Usuario(string nome, string telefone, string cpf)
+        public string Nome { get; set; }
+        public string Telefone { get; set; }
+        public string CPF { get; set; }
+        public List<Endereco> Enderecos
         {
-            this.Nome = nome;
-            this.Telefone = telefone;
-            this.CPF = cpf;
+            get
+            {
+                return Endereco.PorCPF(this.CPF);
+            }
         }
 
-        public Usuario() { }
+        public override string ToString()
+        {
+            return this.Nome;
+        }
+        public void Gravar()
+        {
+            new Database.Usuario().Gravar(this.Nome, this.Telefone, this.CPF);
+        }
+
+        public static List<Usuario> Todos()
+        {
+            var list = new List<Usuario>();
+            var tabela = new Database.Usuario().Todos();
+            if (tabela.Rows.Count > 0)
+            {
+                foreach (DataRow row in tabela.Rows)
+                {
+                    list.Add(new Usuario()
+                    {
+                        Nome = row["nome"].ToString(),
+                        Telefone = row["telefone"].ToString(),
+                        CPF = row["cpf"].ToString()
+                    });
+                }
+            }
+            return list;
+        }
+
     }
 }

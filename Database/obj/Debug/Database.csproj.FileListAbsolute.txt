@@ -1,0 +1,12 @@
+D:\PESSOAIS\C#\AppTresCamadasNaoPersistente\DatabaseSQL\bin\Debug\DatabaseSQL.dll
+D:\PESSOAIS\C#\AppTresCamadasNaoPersistente\DatabaseSQL\bin\Debug\DatabaseSQL.pdb
+D:\PESSOAIS\C#\AppTresCamadasNaoPersistente\DatabaseSQL\obj\Debug\Database.csprojAssemblyReference.cache
+D:\PESSOAIS\C#\AppTresCamadasNaoPersistente\DatabaseSQL\obj\Debug\Database.csproj.CoreCompileInputs.cache
+D:\PESSOAIS\C#\AppTresCamadasNaoPersistente\DatabaseSQL\obj\Debug\DatabaseSQL.dll
+D:\PESSOAIS\C#\AppTresCamadasNaoPersistente\DatabaseSQL\obj\Debug\DatabaseSQL.pdb
+D:\PESSOAIS\C#\AppTresCamadasPersistente\Database\bin\Debug\DatabaseSQL.dll
+D:\PESSOAIS\C#\AppTresCamadasPersistente\Database\bin\Debug\DatabaseSQL.pdb
+D:\PESSOAIS\C#\AppTresCamadasPersistente\Database\obj\Debug\Database.csprojAssemblyReference.cache
+D:\PESSOAIS\C#\AppTresCamadasPersistente\Database\obj\Debug\Database.csproj.CoreCompileInputs.cache
+D:\PESSOAIS\C#\AppTresCamadasPersistente\Database\obj\Debug\DatabaseSQL.dll
+D:\PESSOAIS\C#\AppTresCamadasPersistente\Database\obj\Debug\DatabaseSQL.pdb

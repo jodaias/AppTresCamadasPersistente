@@ -35,6 +35,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -81,16 +82,8 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Business\Business.csproj">
-      <Project>{0CE61DC1-CEE7-4901-9398-AF4CD61480C4}</Project>
+      <Project>{0ce61dc1-cee7-4901-9398-af4cd61480c4}</Project>
       <Name>Business</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\DatabaseSQL\DatabaseSQL.csproj">
-      <Project>{5aaad447-7ce1-48c3-8e21-f2c32807e4f8}</Project>
-      <Name>DatabaseSQL</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Database\DatabaseTXT.csproj">
-      <Project>{d6db1c35-c339-4c2b-a4e9-127db43d25d5}</Project>
-      <Name>DatabaseTXT</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
